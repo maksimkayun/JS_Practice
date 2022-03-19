@@ -1,8 +1,8 @@
 function convert(arr2arr) {
     let result = []
-    for (let i = 0; i < arr2arr.length; i++) {
+    for (let i = 0; i < arr2arr[0].length; i++) {
         let column = []
-        for (let j = 0; j < arr2arr[i].length; j++) {
+        for (let j = 0; j < arr2arr.length; j++) {
             column[j] = arr2arr[j][i] 
         }
         result[i] = column
