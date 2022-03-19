@@ -3,7 +3,7 @@ function convert(arr2arr) {
     for (let i = 0; i < arr2arr.length; i++) {
         let column = []
         for (let j = 0; j < arr2arr[i].length; j++) {
-            column[j] = arr2arr[i][j] 
+            column[j] = arr2arr[j][i] 
         }
         result[i] = column
     }
