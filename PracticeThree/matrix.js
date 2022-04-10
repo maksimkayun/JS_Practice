@@ -1,16 +1,16 @@
 function matrix(n) {
-    let arr = []
+    let arr = [];
     for (let i = 0; i < n; i++) {
-        let str = []
+        let str = [];
         for (let j = 0; j < n; j++) {
-            str[j] = n
+            str[j] = n;
         }            
-        console.log(str)    
-        arr[i] = str
+        console.log(str);  
+        arr[i] = str;
     }
 
 }
 
-matrix(3)
-matrix(7)
-matrix(2)
+matrix(3);
+matrix(7);
+matrix(2);

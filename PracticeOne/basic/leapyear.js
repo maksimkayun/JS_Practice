@@ -10,6 +10,6 @@ function leapyear(year) {
         console.log("no");
 }
 
-leapyear(1984)
-leapyear(2003)
-leapyear(4)
+leapyear(1984);
+leapyear(2003);
+leapyear(4);
