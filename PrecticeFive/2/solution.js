@@ -7,10 +7,10 @@ function solve() {
     let res = "";
     for (let index = 0; index < arr.length; index++) {
       if (index === 0) {
-        res += arr[index].charAt(0).toLowerCase() + arr[index].slice(1);
+        res += arr[index].charAt(0).toLowerCase() + arr[index].slice(1).toLowerCase();
       } else {
         
-        res += arr[index].charAt(0).toUpperCase() + arr[index].slice(1);
+        res += arr[index].charAt(0).toUpperCase() + arr[index].slice(1).toLowerCase();
       }
     }
     document.getElementById('result').innerText = res;
@@ -19,7 +19,7 @@ function solve() {
     let arr = text.split(" ");
     let res = "";
     for (let index = 0; index < arr.length; index++) {
-      res += arr[index].charAt(0).toUpperCase() + arr[index].slice(1);      
+      res += arr[index].charAt(0).toUpperCase() + arr[index].slice(1).toLowerCase();      
     }
     document.getElementById('result').innerText = res;
   } 
