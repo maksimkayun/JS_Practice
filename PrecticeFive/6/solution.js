@@ -1,5 +1,5 @@
 function attachEventsListeners() {
-    const buttons = document.querySelectorAll('input[type=button]')
+    const buttons = document.querySelectorAll('input[type=button]');
     buttons[0].addEventListener('click', clickDays);
     buttons[1].addEventListener('click', clickHours);
     buttons[2].addEventListener('click', clickMinutes);
